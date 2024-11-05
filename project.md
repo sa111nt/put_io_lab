@@ -87,18 +87,47 @@ Osoba chcąca zakupić produkt na aukcji.
 **Aktorzy:** [Kupujący](#ac2)
 
 **Scenariusz główny:**
-1. [Kupujący](#ac2) wystawi cenę za produkt.
+1. [Kupujący](#ac2) wystawia cenę za produkt oraz poda swoje dane.
 2. System sprawzdi czy cena jest wyższa od aktualnej o co najmniej 1 złotówke.
 3. System potwierdzi nową cenę za produkt.
-4. System zaktualizuje nową cenę za produkt.
-5. System zapisze dane kupującego.
+4. System zapisze dane [kupującego](#ac2).
+5. System zaktualizuje nową cenę za produkt.
+   
 
 **Scenariusze alternatywne:** 
 
-1.A. ...
-* 4.A.1. ...
+2.A. Podano kwotę nie wyższa od poprzedniej o 1 zł
+* 2.A.1. System informuje o błędnie podanej kwocie.
+* 2.A.2 Przejdz do kroku 1.
 
 ---
+
+
+<a id="uc3"></a> 
+
+### UC3: Wygranie aukcji
+
+**Aktorzy:** [Kupujący](#ac3)
+
+**Scenariusz główny:**
+1. Skończył się czas aukcji.
+2. System pobiera dane [kupującego](#ac3) z aktualną najwyższą ceną za produkt.
+3. System ogłasza zwyciężscę.
+
+---
+
+
+<a id="uc4"></a>
+
+### UC4: Przekazanie należności sprzedającemu
+
+**Aktorzy** [Kupujący](#ac4), [Sprzedający](#ac5)
+   
+
+
+
+
+
 
 ## Obiewkty biznesowe (inaczje obiekty dziedzinowe lub informatycjne)
 
