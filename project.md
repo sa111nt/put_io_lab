@@ -107,11 +107,11 @@ Osoba chcąca zakupić produkt na aukcji.
 
 ### UC3: Wygranie aukcji
 
-**Aktorzy:** [Kupujący](#ac3)
+**Aktorzy:** [Kupujący](#ac2)
 
 **Scenariusz główny:**
 1. Skończył się czas aukcji.
-2. System pobiera dane [kupującego](#ac3) z aktualną najwyższą ceną za produkt.
+2. System pobiera dane [kupującego](#ac2) z aktualną najwyższą ceną za produkt.
 3. System ogłasza zwyciężscę.
 
 ---
@@ -121,8 +121,23 @@ Osoba chcąca zakupić produkt na aukcji.
 
 ### UC4: Przekazanie należności sprzedającemu
 
-**Aktorzy** [Kupujący](#ac4), [Sprzedający](#ac5)
-   
+**Aktorzy** [Kupujący](#ac2), [Sprzedający](#ac1)
+
+**Scenariusz główny:**
+1. [Kupujący](#ac2) przekazuje należność do systemu.
+2. System sprawdza przekazaną kwotę
+3. System potwierdza przekazaną kwotę.
+4. System przekezuję kwotę [Sprzedającemu](#ac1),
+
+
+**Scenariusze alternatywne:** 
+1.A [Kupujący](#ac2) nie przekazał należności do systemu
+* 1.A.1 System informuje o błędnie przekaznej należności.
+* 1.A.2 Przejdz do kroku 1.
+
+---
+
+
 
 
 
