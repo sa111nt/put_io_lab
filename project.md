@@ -139,11 +139,13 @@ Osoba chcąca zakupić produkt na aukcji.
 
 <a id="uc5"><a>
 
-### UC5: Przekazanie produktu kupującemu
+**Aktorzy** [Kupujący](#ac2)
+
+### UC5: Przekazanie produktu [kupującemu](#a2)
 1. Sprzedający przekazuje produkt do systemu.
 2. System ponownie sprawdza produkt według jego opisu.
 3. System potwierdza stan produktu.
-4. System przekazuje produkt kupującemu.
+4. System przekazuje produkt [kupującemu](#a2).
 
 **Scenariusze alternatywne:** 
 2.A Stan produktu nie odpowiada swojemu opisowi.
