@@ -119,9 +119,9 @@ Osoba chcąca zakupić produkt na aukcji.
 
 <a id="uc4"></a>
 
-### UC4: Przekazanie należności sprzedającemu
+### UC4: Przekazanie należności [sprzedającemu](#ac1)
 
-**Aktorzy** [Kupujący](#ac2)
+**Aktorzy** [Kupujący](#ac2), [Sprzedający](#ac1)
 
 **Scenariusz główny:**
 1. [Kupujący](#ac2) przekazuje należność do systemu.
