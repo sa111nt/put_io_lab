@@ -59,6 +59,7 @@ Osoba chcąca zakupić produkt na aukcji.
 * 
 ---
 <a id="uc1"></a>
+
 ### UC1: Wystawienie produktu na aukcję
 
 **Aktorzy:** [Sprzedający](#ac1)
@@ -79,12 +80,18 @@ Osoba chcąca zakupić produkt na aukcji.
 ---
 
 <a id="uc2"></a>
-### UC2: ...
 
-**Aktorzy:** [Sprzedający](#ac1), [Kupujący](#ac2), ...
+
+### UC2: Oferowanie kwoty za produkt
+
+**Aktorzy:** [Kupujący](#ac2)
 
 **Scenariusz główny:**
-1. ...
+1. [Kupujący](#ac2) wystawi cenę za produkt.
+2. System sprawzdi czy cena jest wyższa od aktualnej o co najmniej 1 złotówke.
+3. System potwierdzi nową cenę za produkt.
+4. System zaktualizuje nową cenę za produkt.
+5. System zapisze dane kupującego.
 
 **Scenariusze alternatywne:** 
 
