@@ -56,7 +56,7 @@ Osoba chcąca zakupić produkt na aukcji.
 * [UC2](#uc2): Oferowanie kwoty za produkt
 * [UC3](#uc3): Wygrywanie aukcji
 * [UC4](#uc4): Przekazanie należności sprzedającemu
-* 
+
 ---
 <a id="uc1"></a>
 
@@ -121,7 +121,7 @@ Osoba chcąca zakupić produkt na aukcji.
 
 ### UC4: Przekazanie należności sprzedającemu
 
-**Aktorzy** [Kupujący](#ac2), [Sprzedający](#ac1)
+**Aktorzy** [Kupujący](#ac2)
 
 **Scenariusz główny:**
 1. [Kupujący](#ac2) przekazuje należność do systemu.
@@ -137,7 +137,18 @@ Osoba chcąca zakupić produkt na aukcji.
 
 ---
 
+<a id="uc5"><a>
 
+### UC5: Przekazanie produktu kupującemu
+1. Sprzedający przekazuje produkt do systemu.
+2. System ponownie sprawdza produkt według jego opisu.
+3. System potwierdza stan produktu.
+4. System przekazuje produkt kupującemu.
+
+**Scenariusze alternatywne:** 
+2.A Stan produktu nie odpowiada swojemu opisowi.
+* 2.A.1 System informuje o błędnie podanym opisie produktu.
+* 2.A.2 Przejdz do kroku 1.
 
 
 
